@@ -1,4 +1,4 @@
-body {
+.page {
   font-family: Arial, sans-serif;
   background-color: #eeeeee;
   color: #333;
@@ -8,47 +8,46 @@ body {
 }
 
 /* Header */
-header {
+.header {
   text-align: center;
   background-color: white;
   padding: 20px;
 }
 
-h1 {
+.header-title {
   margin-bottom: 10px;
 }
 
-p {
+.header-subtitle {
   margin-top: 0;
   color: #666;
 }
 
-/* Image et légende */
-figure {
+/* Figure */
+.main-figure {
   text-align: center;
   background-color: white;
   margin: 0;
   padding: 20px;
 }
 
-img {
+.main-image {
   max-width: 100%;
   height: auto;
 }
 
-figcaption {
+.main-caption {
   margin-top: 10px;
   font-size: 0.9em;
   color: #555;
 }
 
-/* Section principale */
-main {
+/* Section chronologique */
+.main {
   padding: 20px;
-  background-color: #eeeeee;
 }
 
-section {
+.timeline-section {
   max-width: 800px;
   margin: auto;
   background-color: white;
@@ -56,18 +55,21 @@ section {
   border-radius: 8px;
 }
 
-/* Liste chronologique */
-ul {
+.timeline-title {
+  text-align: center;
+}
+
+.timeline-list {
   padding-left: 20px;
 }
 
-li {
+.timeline-list li {
   margin-bottom: 10px;
 }
 
 /* Citation */
-blockquote {
-    text-align: center;
+.quote {
+  text-align: center;
   margin-top: 30px;
   font-style: italic;
   background-color: #f9f9f9;
@@ -75,7 +77,7 @@ blockquote {
   border-left: 5px solid #ccc;
 }
 
-blockquote cite {
+.quote cite {
   display: block;
   margin-top: 10px;
   font-size: 0.9em;
@@ -84,18 +86,22 @@ blockquote cite {
 }
 
 /* Footer */
-footer {
+.footer {
   text-align: center;
   font-size: 0.9em;
   padding: 20px;
   background-color: white;
 }
 
-footer a {
+.footer-text {
+  margin: 0;
+}
+
+.footer-link {
   color: #007BFF;
   text-decoration: none;
 }
 
-footer a:hover {
+.footer-link:hover {
   text-decoration: underline;
 }
